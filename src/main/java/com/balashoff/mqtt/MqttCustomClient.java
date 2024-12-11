@@ -56,7 +56,7 @@ public class MqttCustomClient {
 
     }
 
-    public boolean pushMessage(String topic, String message) {
+    public void pushMessage(String topic, String message) {
 
         try {
             MqttMessage mqttMessage = new MqttMessage(message.getBytes(StandardCharsets.UTF_8));
@@ -71,7 +71,7 @@ public class MqttCustomClient {
             isRunning.set(false);
         }
 
-        return isRunning.get();
+        isRunning.get();
 
     }
 
