@@ -1,7 +1,7 @@
 package com.balashoff.mqtt;
 
-import com.balashoff.mqtt.config.ConfigReader;
-import com.balashoff.mqtt.config.MqttBrokerConfig;
+import com.balashoff.mqtt.config.MqttBrokerRecordReader;
+import com.balashoff.mqtt.config.MqttBrokerRecord;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,18 +9,19 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class MqttCustomClientTest {
 
-    private List<MqttBrokerConfig> configs;
+    private List<MqttBrokerRecord> configs;
+
     @BeforeEach
     void setUp() {
-        configs = ConfigReader.getConfig("volume/mqtt_broker_config.json");
+        MqttBrokerRecordReader reader = new MqttBrokerRecordReader("volume/mqtt_broker_config.json") ;
+        reader.setRecords();
+        configs = reader.getRecords();
     }
 
     @Test
-    public void mqttClientConnectionTest(){
+    public void mqttClientConnectionTest() {
         configs.forEach(config -> {
             MqttCustomClient mqttCustomClient = new MqttCustomClient();
             try {

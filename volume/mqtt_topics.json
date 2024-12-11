@@ -1,0 +1,51 @@
+[
+  {
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/sensor/climate",
+    "knx_topic": "",
+    "ha_component":"sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "knx_topic": "/devices/knx_main5_middle0/controls/control5_0_1/on",
+    "ha_component":"light",
+    "ha_device_class": "switch",
+    "topic_direction": "ha-knx"
+  },
+  {
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "knx_topic": "/devices/knx_main5_middle1/controls/control5_1_1",
+    "ha_component":"light",
+    "ha_device_class": "switch",
+    "topic_direction": "knx-hs"
+  },
+  {
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "knx_topic": "/devices/knx_main5_middle2/controls/control5_2_1/on",
+    "ha_component":"light",
+    "ha_device_class": "brightness",
+    "topic_direction": "ha-knx"
+  },
+  {
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "knx_topic": "/devices/knx_main5_middle3/controls/control5_3_1",
+    "ha_component":"light",
+    "ha_device_class": "brightness",
+    "topic_direction": "knx-ha"
+  },
+  {
+    "ha_topic":"homeassistant/floor_3/kitchen_3_23/water_leak",
+    "knx_topic": "/devices/knx_main3_23_middle0/controls/control1_1_1/on",
+    "ha_component":"binary_sensor",
+    "ha_device_class": "leak",
+    "topic_direction": "knx-ha"
+  },
+  {
+    "ha_topic":"homeassistant/floor_3/talking_3_10/motion_detector",
+    "knx_topic": "/devices/knx_main3_10_middle0/controls/control1_1_1/on",
+    "ha_component":"binary_sensor",
+    "ha_device_class": "motion",
+    "topic_direction": "knx-ha"
+  }
+]

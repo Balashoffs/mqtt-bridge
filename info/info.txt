@@ -1,0 +1,48 @@
+ws 172.16.27.83:18883
+mqtt: 172.16.27.83: 1883
+___________________________________________________________
+
+/devices/knx_main5_middle0/controls/control5_0_13/on свет в openspace дискретный
+/devices/knx_main5_middle1/controls/control5_1_13 его фидбэк
+
+/devices/knx_main5_middle2/controls/control5_2_13/on - яркость 0-255
+/devices/knx_main5_middle3/controls/control5_3_13 - фидбэк яркости
+
+/devices/knx_main6_middle0/controls/control6_0_5/on шторы вверх вниз
+/devices/knx_main6_middle1/controls/control6_1_5/on шторы стоп
+
+BIM
+/devices/knx_main5_middle0/controls/control5_0_1/on свет в openspace дискретный
+/devices/knx_main5_middle1/controls/control5_1_1 его фидбэк
+
+/devices/knx_main5_middle2/controls/control5_2_1/on - яркость 0-255
+/devices/knx_main5_middle3/controls/control5_3_1 - фидбэк яркости
+
+/devices/knx_main6_middle0/controls/control6_0_8/on шторы вверх вниз
+/devices/knx_main6_middle1/controls/control6_1_8/on шторы стоп
+
+/devices/knx_main7_middle0/controls/control7_0_1 -температура фб
+
+ПНР
+/devices/knx_main5_middle0/controls/control5_0_21/on свет в openspace дискретный
+/devices/knx_main5_middle1/controls/control5_1_21 его фидбэк
+
+/devices/knx_main5_middle2/controls/control5_2_21/on - яркость 0-255
+/devices/knx_main5_middle3/controls/control5_3_21 - фидбэк яркости
+
+/devices/knx_main6_middle0/controls/control6_0_29/on шторы вверх вниз
+/devices/knx_main6_middle1/controls/control6_1_29/on шторы стоп
+
+HR
+
+/devices/knx_main5_middle0/controls/control5_0_12/on свет в openspace дискретный
+/devices/knx_main5_middle1/controls/control5_1_12 его фидбэк
+
+/devices/knx_main5_middle2/controls/control5_2_12/on - яркость 0-255
+/devices/knx_main5_middle3/controls/control5_3_12 - фидбэк яркости
+
+/devices/knx_main6_middle0/controls/control6_0_2/on основная штора вверх вниз
+/devices/knx_main6_middle1/controls/control6_1_2/on основная штора стоп
+
+/devices/knx_main6_middle0/controls/control6_0_1/on дополнительная штора вверх вниз
+/devices/knx_main6_middle1/controls/control6_1_1/on дополнительная штора стоп

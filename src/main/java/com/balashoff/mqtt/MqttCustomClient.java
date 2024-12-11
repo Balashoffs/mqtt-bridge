@@ -1,6 +1,6 @@
 package com.balashoff.mqtt;
 
-import com.balashoff.mqtt.config.MqttBrokerConfig;
+import com.balashoff.mqtt.config.MqttBrokerRecord;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.eclipse.paho.client.mqttv3.*;
@@ -17,7 +17,7 @@ public class MqttCustomClient {
     private IMqttClient publisher;
     public AtomicBoolean isRunning = new AtomicBoolean(false);
 
-    public void connect(MqttBrokerConfig config) throws MqttException {
+    public void connect(MqttBrokerRecord config) throws MqttException {
         String publisherId = UUID.randomUUID().toString();
 
         publisher = new MqttClient(String.format("tcp://%s:%d", config.host(), config.port()), publisherId);
