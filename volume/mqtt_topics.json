@@ -18,7 +18,7 @@
     "knx_topic": "/devices/knx_main5_middle1/controls/control5_1_1",
     "ha_component":"light",
     "ha_device_class": "switch",
-    "topic_direction": "knx-hs"
+    "topic_direction": "knx-ha"
   },
   {
     "ha_topic":"homeassistant/floor_3/office_room_3_12/light",

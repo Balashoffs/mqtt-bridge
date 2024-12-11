@@ -2,7 +2,6 @@ package com.balashoff.custom;
 
 import com.balashoff.json.FileReader;
 import com.balashoff.json.JsonSerilazer;
-import com.balashoff.mqtt.config.MqttBrokerRecord;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -24,4 +23,6 @@ public abstract class AbstractRecordsReader<T> {
         String json = FileReader.readFile(pathToFile);
         return serilazer.fromJsonC(json, mainCLass, subClasses);
     }
+
+    public abstract void setRecords();
 }
