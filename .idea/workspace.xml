@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4eb771d-8ac3-4d38-afcd-e637a63bb242" name="Changes" comment="read mqtt broker config from file">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/balashoff/mqtt/MqttCustomClientTest.java" afterDir="false" />
+    <list default="true" id="d4eb771d-8ac3-4d38-afcd-e637a63bb242" name="Changes" comment="test mqtt topics analyzer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttTopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/balashoff/mqtt/MqttClientManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttCustomClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttCustomClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/config/MqttBrokerRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/config/MqttBrokerRecord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +69,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -79,7 +85,12 @@
   "keyToString": {
     "Gradle.ConfigReaderTest.executor": "Run",
     "Gradle.ConfigReaderTest.readMqttBrokerConfigFileTest.executor": "Run",
+    "Gradle.MqttClientManagerTest.executor": "Run",
+    "Gradle.MqttCustomClientTest.executor": "Run",
     "Gradle.MqttCustomClientTest.mqttClientConnectionTest.executor": "Run",
+    "Gradle.MqttTopicAnalyzerTest.analyzeRecords.executor": "Run",
+    "Gradle.MqttTopicAnalyzerTest.executor": "Run",
+    "Gradle.MqttTopicReaderTest.readRecordsTest.executor": "Run",
     "Gradle.mqtt_bridge [buildFatJar].executor": "Run",
     "Gradle.mqtt_bridge [clean].executor": "Run",
     "Gradle.mqtt_bridge [jar].executor": "Run",
@@ -107,10 +118,11 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.balashoff.mqtt" />
+      <recent name="com.balashoff.mqtt.topic" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MqttCustomClientTest.mqttClientConnectionTest">
-    <configuration name="ConfigReaderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MqttClientManagerTest">
+    <configuration name="MqttClientManagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +135,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.balashoff.mqtt.ConfigReaderTest&quot;" />
+            <option value="&quot;com.balashoff.mqtt.MqttClientManagerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +146,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ConfigReaderTest.readMqttBrokerConfigFileTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MqttCustomClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +159,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.balashoff.mqtt.ConfigReaderTest.readMqttBrokerConfigFileTest&quot;" />
+            <option value="&quot;com.balashoff.mqtt.MqttCustomClientTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +170,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MqttCustomClientTest.mqttClientConnectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MqttTopicAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +183,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.balashoff.mqtt.MqttCustomClientTest.mqttClientConnectionTest&quot;" />
+            <option value="&quot;com.balashoff.mqtt.MqttTopicAnalyzerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,57 +194,61 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="mqtt_bridge [buildFatJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MqttTopicAnalyzerTest.analyzeRecords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="buildFatJar" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.balashoff.mqtt.MqttTopicAnalyzerTest.analyzeRecords&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="mqtt_bridge [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MqttTopicReaderTest.readRecordsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.balashoff.mqtt.topic.MqttTopicReaderTest.readRecordsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MqttCustomClientTest.mqttClientConnectionTest" />
-        <item itemvalue="Gradle.ConfigReaderTest" />
-        <item itemvalue="Gradle.ConfigReaderTest.readMqttBrokerConfigFileTest" />
-        <item itemvalue="Gradle.mqtt_bridge [clean]" />
-        <item itemvalue="Gradle.mqtt_bridge [buildFatJar]" />
+        <item itemvalue="Gradle.MqttClientManagerTest" />
+        <item itemvalue="Gradle.MqttTopicAnalyzerTest.analyzeRecords" />
+        <item itemvalue="Gradle.MqttTopicAnalyzerTest" />
+        <item itemvalue="Gradle.MqttTopicReaderTest.readRecordsTest" />
+        <item itemvalue="Gradle.MqttCustomClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -253,11 +269,40 @@
       <option name="project" value="LOCAL" />
       <updated>1733901639387</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor records readers">
+      <option name="closed" value="true" />
+      <created>1733919638667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733919638667</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test mqtt topics analyzer">
+      <option name="closed" value="true" />
+      <created>1733921406171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733921406171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read mqtt broker config from file" />
-    <option name="LAST_COMMIT_MESSAGE" value="read mqtt broker config from file" />
+    <MESSAGE value="refactor records readers" />
+    <MESSAGE value="test mqtt topics analyzer" />
+    <option name="LAST_COMMIT_MESSAGE" value="test mqtt topics analyzer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/balashoff/mqtt/MqttTopicAnalyzerTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
