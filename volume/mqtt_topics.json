@@ -1,6 +1,6 @@
 [
   {
-    "ha_topic":"homeassistant/floor_3/office_room_3_12/sensor/climate",
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/climate",
     "knx_topic": "",
     "ha_component":"sensor",
     "ha_device_class": "climate",

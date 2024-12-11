@@ -23,9 +23,9 @@ class MqttCustomClientTest {
     @Test
     public void mqttClientConnectionTest() {
         configs.forEach(config -> {
-            MqttCustomClient mqttCustomClient = new MqttCustomClient();
+            MqttCustomClient mqttCustomClient = new MqttCustomClient(config);
             try {
-                mqttCustomClient.connect(config);
+                mqttCustomClient.connect();
                 mqttCustomClient.pushMessage("/ha/hello", "world");
                 Thread.sleep(5000);
                 mqttCustomClient.close();

@@ -1,6 +1,7 @@
 package com.balashoff.mqtt;
 
 import com.balashoff.mqtt.config.MqttBrokerRecord;
+import com.balashoff.mqtt.topic.MqttTopicRecord;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
@@ -19,23 +20,26 @@ public class MqttCustomClient {
     public AtomicBoolean isRunning = new AtomicBoolean(false);
 
     @Getter
-    private String id = null;
+    private final MqttBrokerRecord topicRecord;
 
 
+    public String getId() {
+        return String.format("%s:%s", topicRecord.host(), topicRecord.port());
+    }
 
-    public void connect(MqttBrokerRecord config) throws MqttException {
+    public void connect() throws MqttException {
         String publisherId = UUID.randomUUID().toString();
-        id = String.format("tcp://%s:%d", config.host(), config.port());
-        publisher = new MqttClient(id, publisherId);
+        String url = String.format("tcp://%s:%d", topicRecord.host(), topicRecord.port());
+        publisher = new MqttClient(url, publisherId);
 
         log.debug("Create mqtt publisher");
         MqttConnectOptions options = new MqttConnectOptions();
         options.setAutomaticReconnect(true);
         options.setCleanSession(true);
         options.setConnectionTimeout(10);
-        if(!config.user().isEmpty()){
-            options.setPassword(config.password().toCharArray());
-            options.setUserName(config.user());
+        if (!topicRecord.user().isEmpty()) {
+            options.setPassword(topicRecord.password().toCharArray());
+            options.setUserName(topicRecord.user());
         }
 
         log.debug("Create mqtt option: {}", options.toString());
@@ -89,7 +93,6 @@ public class MqttCustomClient {
             log.error(e.getCause());
         }
     }
-
 
     public void close() {
         try {

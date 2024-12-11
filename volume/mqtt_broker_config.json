@@ -4,13 +4,13 @@
     "mqtt_broker_port": 1883,
     "mqtt_broker_user": "hassio",
     "mqtt_broker_password": "123",
-    "need_forwarding": true
+    "need_forwarding": false
   },
   {
     "mqtt_broker_host": "172.16.129.12",
     "mqtt_broker_port": 1883,
     "mqtt_broker_user": "",
     "mqtt_broker_password": "",
-    "need_forwarding": false
+    "need_forwarding": true
   }
 ]

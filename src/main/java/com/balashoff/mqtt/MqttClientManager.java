@@ -46,10 +46,10 @@ public class MqttClientManager {
 
     private boolean tryToConnect(List<MqttBrokerRecord> foundRecords) {
         for (MqttBrokerRecord record : foundRecords) {
-            MqttCustomClient customClient = new MqttCustomClient();
+            MqttCustomClient customClient = new MqttCustomClient(record);
             try {
                 log.info("Try to connect to brocker - {}:{}", record.host(), record.port());
-                customClient.connect(record);
+                customClient.connect();
                 mqttClients.putIfAbsent(record.needForwarding(), customClient);
                 log.info("Successful connection to broker - {}:{}", record.host(), record.port());
             } catch (MqttException e) {
@@ -61,7 +61,7 @@ public class MqttClientManager {
 
     }
 
-    public void disconnect() {
+    public void closeAllConnection() {
         for (MqttCustomClient client : mqttClients.values()) {
             log.info("Close connection with - {}", client.getId());
             client.close();
