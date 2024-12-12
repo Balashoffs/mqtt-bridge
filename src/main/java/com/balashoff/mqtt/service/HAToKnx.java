@@ -7,7 +7,7 @@ import lombok.extern.log4j.Log4j2;
 import java.util.List;
 import java.util.Map;
 
-import static com.balashoff.ha.components.Convertor.forTopic;
+import static com.balashoff.ha.components.Convertor.forTopicHA;
 
 @Log4j2
 public class HAToKnx extends AbstractSmartService {
@@ -28,7 +28,7 @@ public class HAToKnx extends AbstractSmartService {
         for (MqttTopicRecord topic : getTopics()) {
             subHAClient.subscribeTopic(topic.haTopic(), s -> {
                 log.info("[KnxToHA] Get message: {}", s);
-                String updateMessage = forTopic(topic.haComponent(), topic.haDeviceCLass(), s);
+                String updateMessage = forTopicHA(topic.haComponent(), topic.haDeviceCLass(), s);
                 log.info("[KnxToHA] convert to message: {}", updateMessage);
                 pubKnxClient.pushMessage(topic.knxTopic(), updateMessage);
             });

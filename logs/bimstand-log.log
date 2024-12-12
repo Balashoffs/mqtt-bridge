@@ -1,0 +1,773 @@
+[DEBUG]  2024-12-12 09:00:08.516 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.5,"humidity":82.0,"tvoc":748.83,"co2":913.0,"pressure":928.37}
+[DEBUG]  2024-12-12 09:00:18.522 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.3,"humidity":53.89,"tvoc":753.36,"co2":870.88,"pressure":838.74}
+[DEBUG]  2024-12-12 09:00:28.533 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.01,"humidity":61.99,"tvoc":752.05,"co2":791.85,"pressure":788.09}
+[DEBUG]  2024-12-12 09:00:38.541 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.52,"humidity":53.91,"tvoc":747.69,"co2":662.92,"pressure":658.55}
+[DEBUG]  2024-12-12 09:00:48.551 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.14,"humidity":72.37,"tvoc":750.82,"co2":676.01,"pressure":895.27}
+[DEBUG]  2024-12-12 09:00:58.552 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.35,"humidity":63.67,"tvoc":753.33,"co2":797.5,"pressure":706.92}
+[DEBUG]  2024-12-12 09:01:08.564 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.78,"humidity":46.36,"tvoc":755.02,"co2":765.2,"pressure":859.03}
+[DEBUG]  2024-12-12 09:01:18.568 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.14,"humidity":74.31,"tvoc":746.17,"co2":953.86,"pressure":654.61}
+[DEBUG]  2024-12-12 09:01:28.583 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.32,"humidity":78.27,"tvoc":760.57,"co2":621.59,"pressure":760.71}
+[DEBUG]  2024-12-12 09:01:38.596 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.01,"humidity":47.4,"tvoc":758.06,"co2":959.64,"pressure":583.09}
+[DEBUG]  2024-12-12 09:01:48.598 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.57,"humidity":73.23,"tvoc":758.02,"co2":756.99,"pressure":706.3}
+[DEBUG]  2024-12-12 09:01:58.605 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.5,"humidity":77.05,"tvoc":748.58,"co2":551.84,"pressure":713.63}
+[DEBUG]  2024-12-12 09:02:08.613 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.84,"humidity":70.17,"tvoc":755.47,"co2":677.38,"pressure":823.57}
+[DEBUG]  2024-12-12 09:02:18.617 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.73,"humidity":81.68,"tvoc":761.92,"co2":501.01,"pressure":967.58}
+[DEBUG]  2024-12-12 09:02:28.630 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.1,"humidity":76.23,"tvoc":749.22,"co2":510.66,"pressure":570.62}
+[DEBUG]  2024-12-12 09:02:38.641 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.98,"humidity":81.72,"tvoc":750.84,"co2":875.51,"pressure":500.44}
+[DEBUG]  2024-12-12 09:02:48.653 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.05,"humidity":57.94,"tvoc":755.45,"co2":838.14,"pressure":564.09}
+[DEBUG]  2024-12-12 09:02:58.657 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.52,"humidity":66.9,"tvoc":759.47,"co2":840.08,"pressure":702.65}
+[DEBUG]  2024-12-12 09:03:08.663 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.93,"humidity":70.11,"tvoc":758.33,"co2":656.53,"pressure":792.65}
+[DEBUG]  2024-12-12 09:03:18.674 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.33,"humidity":73.12,"tvoc":761.6,"co2":929.42,"pressure":883.86}
+[DEBUG]  2024-12-12 09:03:28.678 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.69,"humidity":74.41,"tvoc":753.54,"co2":729.71,"pressure":913.33}
+[DEBUG]  2024-12-12 09:03:38.691 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.59,"humidity":51.82,"tvoc":751.63,"co2":964.66,"pressure":505.33}
+[DEBUG]  2024-12-12 09:03:48.698 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.62,"humidity":58.64,"tvoc":762.5,"co2":515.38,"pressure":610.02}
+[DEBUG]  2024-12-12 09:03:58.711 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.13,"humidity":70.96,"tvoc":761.36,"co2":602.06,"pressure":675.66}
+[DEBUG]  2024-12-12 09:04:08.721 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.63,"humidity":57.44,"tvoc":764.25,"co2":915.05,"pressure":536.77}
+[DEBUG]  2024-12-12 09:04:18.734 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.7,"humidity":81.98,"tvoc":757.01,"co2":622.82,"pressure":807.12}
+[DEBUG]  2024-12-12 09:04:28.746 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.03,"humidity":45.52,"tvoc":763.39,"co2":939.82,"pressure":651.35}
+[DEBUG]  2024-12-12 09:04:38.747 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.42,"humidity":52.14,"tvoc":754.65,"co2":608.98,"pressure":949.53}
+[DEBUG]  2024-12-12 09:04:48.749 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.89,"humidity":83.24,"tvoc":749.0,"co2":883.55,"pressure":532.38}
+[DEBUG]  2024-12-12 09:04:58.751 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.08,"humidity":70.08,"tvoc":756.26,"co2":758.32,"pressure":583.68}
+[DEBUG]  2024-12-12 09:05:08.753 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.47,"humidity":68.14,"tvoc":759.09,"co2":968.95,"pressure":746.92}
+[DEBUG]  2024-12-12 09:05:18.755 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.33,"humidity":61.05,"tvoc":749.42,"co2":593.33,"pressure":500.37}
+[DEBUG]  2024-12-12 09:05:28.758 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.43,"humidity":59.59,"tvoc":756.42,"co2":884.07,"pressure":713.53}
+[DEBUG]  2024-12-12 09:05:38.769 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.4,"humidity":75.46,"tvoc":755.55,"co2":824.22,"pressure":600.29}
+[DEBUG]  2024-12-12 09:05:48.779 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.09,"humidity":78.16,"tvoc":754.65,"co2":954.97,"pressure":671.69}
+[DEBUG]  2024-12-12 09:05:58.783 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.4,"humidity":45.78,"tvoc":750.32,"co2":658.51,"pressure":786.06}
+[DEBUG]  2024-12-12 09:06:08.797 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.41,"humidity":69.86,"tvoc":761.84,"co2":934.57,"pressure":995.36}
+[DEBUG]  2024-12-12 09:06:18.805 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.11,"humidity":64.86,"tvoc":747.57,"co2":972.22,"pressure":944.94}
+[DEBUG]  2024-12-12 09:06:28.808 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.43,"humidity":83.46,"tvoc":753.32,"co2":907.08,"pressure":761.39}
+[DEBUG]  2024-12-12 09:06:38.818 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.7,"humidity":55.62,"tvoc":748.66,"co2":697.81,"pressure":928.77}
+[DEBUG]  2024-12-12 09:06:48.820 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.8,"humidity":67.34,"tvoc":745.09,"co2":966.63,"pressure":829.14}
+[DEBUG]  2024-12-12 09:06:58.829 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.05,"humidity":67.93,"tvoc":752.53,"co2":557.09,"pressure":869.43}
+[DEBUG]  2024-12-12 09:07:08.830 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.91,"humidity":82.22,"tvoc":746.57,"co2":587.3,"pressure":995.13}
+[DEBUG]  2024-12-12 09:07:18.844 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.54,"humidity":70.31,"tvoc":750.32,"co2":804.5,"pressure":540.56}
+[DEBUG]  2024-12-12 09:07:28.855 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.48,"humidity":73.74,"tvoc":748.47,"co2":641.91,"pressure":634.09}
+[DEBUG]  2024-12-12 09:07:38.865 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.82,"humidity":78.23,"tvoc":760.46,"co2":915.69,"pressure":811.24}
+[DEBUG]  2024-12-12 09:07:48.874 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.37,"humidity":83.17,"tvoc":755.55,"co2":885.63,"pressure":618.98}
+[DEBUG]  2024-12-12 09:07:58.888 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.43,"humidity":61.78,"tvoc":745.41,"co2":792.29,"pressure":779.63}
+[DEBUG]  2024-12-12 09:08:08.894 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.72,"humidity":77.32,"tvoc":747.71,"co2":909.02,"pressure":758.1}
+[DEBUG]  2024-12-12 09:08:18.910 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.45,"humidity":84.79,"tvoc":746.63,"co2":978.09,"pressure":523.9}
+[INFO ]  2024-12-12 09:08:27.161 [main] MqttClientManager - Try to connect to brocker - 172.16.129.11:1883
+[DEBUG]  2024-12-12 09:08:27.224 [main] MqttCustomClient - Create mqtt publisher
+[DEBUG]  2024-12-12 09:08:27.226 [main] MqttCustomClient - Create mqtt option: 
+============== Connection options ==============
+SocketFactory               :  null
+CleanSession                :  true
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  10
+UserName                    :  hassio
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+[DEBUG]  2024-12-12 09:08:27.569 [main] MqttCustomClient - Mqtt publisher connected
+[INFO ]  2024-12-12 09:08:27.569 [main] MqttClientManager - Successful connection to broker - 172.16.129.11:1883
+[INFO ]  2024-12-12 09:08:27.569 [main] MqttClientManager - Try to connect to brocker - 172.16.27.83:1883
+[DEBUG]  2024-12-12 09:08:27.570 [main] MqttCustomClient - Create mqtt publisher
+[DEBUG]  2024-12-12 09:08:27.571 [main] MqttCustomClient - Create mqtt option: 
+============== Connection options ==============
+SocketFactory               :  null
+CleanSession                :  true
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  10
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+[DEBUG]  2024-12-12 09:08:27.905 [main] MqttCustomClient - Mqtt publisher connected
+[INFO ]  2024-12-12 09:08:27.906 [main] MqttClientManager - Successful connection to broker - 172.16.27.83:1883
+[INFO ]  2024-12-12 09:08:27.906 [main] MqttTopicController - Create 'ha-knx' handler
+[INFO ]  2024-12-12 09:08:27.907 [main] MqttTopicController - Create 'bridge-ha' handler
+[INFO ]  2024-12-12 09:08:27.907 [main] MqttTopicController - Create 'knx-ha' handler
+[INFO ]  2024-12-12 09:08:27.909 [pool-2-thread-2] BridgeToHA - Application found 1 device for publishing to HA
+[DEBUG]  2024-12-12 09:08:27.912 [pool-2-thread-1] MqttCustomClient - Mqtt publisher subscribe to homeassistant/floor_3/office_room_3_12/light/set
+[DEBUG]  2024-12-12 09:08:27.914 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.46,"humidity":48.2,"tvoc":745.11,"co2":714.86,"pressure":982.53}
+[DEBUG]  2024-12-12 09:08:27.916 [pool-2-thread-1] MqttCustomClient - Mqtt publisher subscribe to homeassistant/floor_3/office_room_3_12/brightness/set
+[INFO ]  2024-12-12 09:08:36.094 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:08:36.095 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:08:36.095 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:08:36.096 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:08:37.919 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.06,"humidity":78.83,"tvoc":760.87,"co2":756.55,"pressure":595.73}
+[INFO ]  2024-12-12 09:08:38.515 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:08:38.515 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:08:38.515 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:08:38.516 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - Mqtt publisher publish message: 1
+[DEBUG]  2024-12-12 09:08:47.935 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.92,"humidity":70.4,"tvoc":746.62,"co2":949.75,"pressure":864.65}
+[DEBUG]  2024-12-12 09:08:57.948 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.64,"humidity":78.14,"tvoc":751.37,"co2":839.38,"pressure":834.83}
+[DEBUG]  2024-12-12 09:09:07.959 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.25,"humidity":52.3,"tvoc":747.58,"co2":502.5,"pressure":847.46}
+[DEBUG]  2024-12-12 09:09:17.961 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.33,"humidity":73.23,"tvoc":753.86,"co2":664.3,"pressure":609.71}
+[DEBUG]  2024-12-12 09:09:27.976 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.72,"humidity":47.46,"tvoc":758.0,"co2":623.43,"pressure":987.49}
+[DEBUG]  2024-12-12 09:09:37.978 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.91,"humidity":54.92,"tvoc":749.41,"co2":630.87,"pressure":507.42}
+[DEBUG]  2024-12-12 09:09:47.979 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.5,"humidity":64.78,"tvoc":758.25,"co2":911.09,"pressure":775.96}
+[INFO ]  2024-12-12 09:09:52.114 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:09:52.115 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:09:52.115 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:09:52.115 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:09:53.520 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:09:53.520 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:09:53.520 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:09:53.521 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:09:56.832 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:09:56.832 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:09:56.832 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:09:56.833 [MQTT Call: 3dc4ffbb-30f4-423d-af18-d76822f4a98b] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:09:57.982 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.92,"humidity":81.65,"tvoc":750.52,"co2":699.69,"pressure":749.52}
+[DEBUG]  2024-12-12 09:10:07.984 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.49,"humidity":71.99,"tvoc":761.65,"co2":795.0,"pressure":648.23}
+[DEBUG]  2024-12-12 09:10:17.986 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.95,"humidity":73.0,"tvoc":753.27,"co2":556.56,"pressure":740.66}
+[DEBUG]  2024-12-12 09:10:27.987 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.08,"humidity":62.36,"tvoc":764.59,"co2":516.27,"pressure":696.61}
+[DEBUG]  2024-12-12 09:10:37.989 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.67,"humidity":72.6,"tvoc":755.93,"co2":793.59,"pressure":716.24}
+[DEBUG]  2024-12-12 09:10:47.991 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.02,"humidity":53.04,"tvoc":756.58,"co2":748.83,"pressure":562.74}
+[DEBUG]  2024-12-12 09:10:57.993 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.3,"humidity":45.12,"tvoc":753.36,"co2":587.22,"pressure":777.78}
+[DEBUG]  2024-12-12 09:11:07.995 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.0,"humidity":70.3,"tvoc":764.68,"co2":722.31,"pressure":524.86}
+[DEBUG]  2024-12-12 09:11:18.003 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.26,"humidity":82.01,"tvoc":759.72,"co2":710.84,"pressure":719.94}
+[DEBUG]  2024-12-12 09:11:28.009 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.4,"humidity":76.1,"tvoc":746.9,"co2":982.57,"pressure":536.49}
+[DEBUG]  2024-12-12 09:11:38.017 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.42,"humidity":72.04,"tvoc":762.11,"co2":996.11,"pressure":564.95}
+[DEBUG]  2024-12-12 09:11:48.019 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.3,"humidity":73.04,"tvoc":755.52,"co2":664.16,"pressure":876.09}
+[DEBUG]  2024-12-12 09:11:58.022 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.78,"humidity":68.52,"tvoc":750.54,"co2":525.93,"pressure":557.97}
+[DEBUG]  2024-12-12 09:12:08.032 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.71,"humidity":49.84,"tvoc":749.39,"co2":921.37,"pressure":814.7}
+[DEBUG]  2024-12-12 09:12:18.034 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.92,"humidity":53.12,"tvoc":745.64,"co2":852.66,"pressure":509.56}
+[DEBUG]  2024-12-12 09:12:28.034 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.31,"humidity":53.73,"tvoc":759.76,"co2":830.58,"pressure":836.31}
+[DEBUG]  2024-12-12 09:12:38.036 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.98,"humidity":56.25,"tvoc":753.04,"co2":939.28,"pressure":933.61}
+[DEBUG]  2024-12-12 09:12:48.038 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.91,"humidity":66.13,"tvoc":751.89,"co2":911.1,"pressure":966.93}
+[DEBUG]  2024-12-12 09:12:58.039 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.21,"humidity":78.61,"tvoc":757.38,"co2":596.2,"pressure":841.15}
+[DEBUG]  2024-12-12 09:13:08.041 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.94,"humidity":75.5,"tvoc":756.72,"co2":726.4,"pressure":795.08}
+[DEBUG]  2024-12-12 09:13:18.052 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.06,"humidity":65.04,"tvoc":759.76,"co2":561.72,"pressure":650.89}
+[DEBUG]  2024-12-12 09:13:28.058 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.81,"humidity":79.8,"tvoc":757.9,"co2":800.8,"pressure":640.96}
+[DEBUG]  2024-12-12 09:13:38.067 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.93,"humidity":78.78,"tvoc":748.23,"co2":656.11,"pressure":840.04}
+[DEBUG]  2024-12-12 09:13:48.080 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.78,"humidity":58.37,"tvoc":758.47,"co2":583.52,"pressure":743.99}
+[DEBUG]  2024-12-12 09:13:58.092 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.68,"humidity":64.69,"tvoc":756.5,"co2":835.19,"pressure":724.41}
+[DEBUG]  2024-12-12 09:14:08.101 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.73,"humidity":48.84,"tvoc":761.75,"co2":593.17,"pressure":958.74}
+[DEBUG]  2024-12-12 09:14:18.112 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.32,"humidity":79.31,"tvoc":760.31,"co2":912.86,"pressure":953.17}
+[DEBUG]  2024-12-12 09:14:28.122 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.88,"humidity":83.53,"tvoc":759.73,"co2":900.46,"pressure":546.15}
+[DEBUG]  2024-12-12 09:14:38.128 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.44,"humidity":52.72,"tvoc":763.97,"co2":999.52,"pressure":673.94}
+[DEBUG]  2024-12-12 09:14:48.137 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.54,"humidity":66.62,"tvoc":750.71,"co2":638.21,"pressure":718.26}
+[DEBUG]  2024-12-12 09:14:58.141 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.81,"humidity":74.09,"tvoc":752.59,"co2":576.76,"pressure":649.2}
+[DEBUG]  2024-12-12 09:15:08.147 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.51,"humidity":70.24,"tvoc":751.25,"co2":938.18,"pressure":987.28}
+[DEBUG]  2024-12-12 09:15:18.154 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.2,"humidity":64.22,"tvoc":761.19,"co2":961.48,"pressure":832.51}
+[INFO ]  2024-12-12 09:15:24.394 [main] MqttClientManager - Try to connect to brocker - 172.16.129.11:1883
+[DEBUG]  2024-12-12 09:15:24.466 [main] MqttCustomClient - Create mqtt publisher
+[DEBUG]  2024-12-12 09:15:24.468 [main] MqttCustomClient - Create mqtt option: 
+============== Connection options ==============
+SocketFactory               :  null
+CleanSession                :  true
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  10
+UserName                    :  hassio
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+[DEBUG]  2024-12-12 09:15:25.651 [main] MqttCustomClient - Mqtt publisher connected
+[INFO ]  2024-12-12 09:15:25.651 [main] MqttClientManager - Successful connection to broker - 172.16.129.11:1883
+[INFO ]  2024-12-12 09:15:25.651 [main] MqttClientManager - Try to connect to brocker - 172.16.27.83:1883
+[DEBUG]  2024-12-12 09:15:25.652 [main] MqttCustomClient - Create mqtt publisher
+[DEBUG]  2024-12-12 09:15:25.653 [main] MqttCustomClient - Create mqtt option: 
+============== Connection options ==============
+SocketFactory               :  null
+CleanSession                :  true
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  10
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+[DEBUG]  2024-12-12 09:15:25.960 [main] MqttCustomClient - Mqtt publisher connected
+[INFO ]  2024-12-12 09:15:25.960 [main] MqttClientManager - Successful connection to broker - 172.16.27.83:1883
+[INFO ]  2024-12-12 09:15:25.961 [main] MqttTopicController - Create 'ha-knx' handler
+[INFO ]  2024-12-12 09:15:25.961 [main] MqttTopicController - Create 'bridge-ha' handler
+[INFO ]  2024-12-12 09:15:25.962 [main] MqttTopicController - Create 'knx-ha' handler
+[INFO ]  2024-12-12 09:15:25.964 [pool-2-thread-2] BridgeToHA - Application found 1 device for publishing to HA
+[DEBUG]  2024-12-12 09:15:25.966 [pool-2-thread-1] MqttCustomClient - Mqtt publisher subscribe to homeassistant/floor_3/office_room_3_12/light/set
+[DEBUG]  2024-12-12 09:15:25.968 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.18,"humidity":52.24,"tvoc":748.63,"co2":701.97,"pressure":776.19}
+[DEBUG]  2024-12-12 09:15:25.969 [pool-2-thread-1] MqttCustomClient - Mqtt publisher subscribe to homeassistant/floor_3/office_room_3_12/brightness/set
+[DEBUG]  2024-12-12 09:15:35.970 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.75,"humidity":51.34,"tvoc":755.08,"co2":522.97,"pressure":700.32}
+[DEBUG]  2024-12-12 09:15:45.973 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.0,"humidity":53.09,"tvoc":764.64,"co2":628.36,"pressure":972.0}
+[DEBUG]  2024-12-12 09:15:55.973 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.62,"humidity":48.72,"tvoc":761.53,"co2":834.8,"pressure":911.01}
+[DEBUG]  2024-12-12 09:16:05.974 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.14,"humidity":57.32,"tvoc":760.25,"co2":759.25,"pressure":755.15}
+[DEBUG]  2024-12-12 09:16:15.978 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.3,"humidity":57.82,"tvoc":762.63,"co2":927.32,"pressure":946.97}
+[DEBUG]  2024-12-12 09:16:25.978 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.13,"humidity":60.78,"tvoc":757.77,"co2":611.35,"pressure":871.6}
+[DEBUG]  2024-12-12 09:16:35.980 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.18,"humidity":75.57,"tvoc":746.51,"co2":716.36,"pressure":775.54}
+[DEBUG]  2024-12-12 09:16:45.981 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.6,"humidity":70.7,"tvoc":750.52,"co2":662.46,"pressure":601.53}
+[DEBUG]  2024-12-12 09:16:55.982 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.2,"humidity":75.95,"tvoc":756.4,"co2":510.35,"pressure":546.45}
+[DEBUG]  2024-12-12 09:17:05.983 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.65,"humidity":78.34,"tvoc":751.62,"co2":886.91,"pressure":541.62}
+[DEBUG]  2024-12-12 09:17:15.985 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.5,"humidity":49.04,"tvoc":747.42,"co2":795.84,"pressure":825.75}
+[DEBUG]  2024-12-12 09:17:25.987 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.11,"humidity":71.03,"tvoc":746.55,"co2":718.19,"pressure":642.31}
+[DEBUG]  2024-12-12 09:17:35.989 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.08,"humidity":84.65,"tvoc":763.6,"co2":967.66,"pressure":611.7}
+[DEBUG]  2024-12-12 09:17:45.998 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.29,"humidity":73.35,"tvoc":762.21,"co2":573.6,"pressure":734.22}
+[DEBUG]  2024-12-12 09:17:56.012 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.41,"humidity":78.7,"tvoc":759.14,"co2":761.87,"pressure":600.73}
+[INFO ]  2024-12-12 09:19:34.093 [main] MqttClientManager - Try to connect to brocker - 172.16.129.11:1883
+[DEBUG]  2024-12-12 09:19:34.160 [main] MqttCustomClient - Create mqtt publisher
+[DEBUG]  2024-12-12 09:19:34.161 [main] MqttCustomClient - Create mqtt option: 
+============== Connection options ==============
+SocketFactory               :  null
+CleanSession                :  true
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  10
+UserName                    :  hassio
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+[DEBUG]  2024-12-12 09:19:34.508 [main] MqttCustomClient - Mqtt publisher connected
+[INFO ]  2024-12-12 09:19:34.508 [main] MqttClientManager - Successful connection to broker - 172.16.129.11:1883
+[INFO ]  2024-12-12 09:19:34.508 [main] MqttClientManager - Try to connect to brocker - 172.16.27.83:1883
+[DEBUG]  2024-12-12 09:19:34.509 [main] MqttCustomClient - Create mqtt publisher
+[DEBUG]  2024-12-12 09:19:34.510 [main] MqttCustomClient - Create mqtt option: 
+============== Connection options ==============
+SocketFactory               :  null
+CleanSession                :  true
+MqttVersion                 :  0
+KeepAliveInterval           :  60
+ConTimeout                  :  10
+UserName                    :  null
+SSLProperties               :  null
+WillDestination             :  null
+==========================================
+
+[DEBUG]  2024-12-12 09:19:34.846 [main] MqttCustomClient - Mqtt publisher connected
+[INFO ]  2024-12-12 09:19:34.846 [main] MqttClientManager - Successful connection to broker - 172.16.27.83:1883
+[INFO ]  2024-12-12 09:19:34.846 [main] MqttTopicController - Create 'ha-knx' handler
+[INFO ]  2024-12-12 09:19:34.847 [main] MqttTopicController - Create 'bridge-ha' handler
+[INFO ]  2024-12-12 09:19:34.848 [main] MqttTopicController - Create 'knx-ha' handler
+[INFO ]  2024-12-12 09:19:34.848 [pool-2-thread-3] KnxToHA - [KnxToHA] Get topic: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:19:34.850 [pool-2-thread-2] BridgeToHA - Application found 1 device for publishing to HA
+[DEBUG]  2024-12-12 09:19:34.855 [pool-2-thread-3] MqttCustomClient - Mqtt publisher subscribe to /devices/knx_main5_middle1/controls/control5_1_1
+[DEBUG]  2024-12-12 09:19:34.855 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.06,"humidity":64.31,"tvoc":745.08,"co2":754.06,"pressure":528.64}
+[INFO ]  2024-12-12 09:19:34.855 [pool-2-thread-3] KnxToHA - [KnxToHA] Get topic: /devices/knx_main5_middle3/controls/control5_3_1
+[DEBUG]  2024-12-12 09:19:34.857 [pool-2-thread-1] MqttCustomClient - Mqtt publisher subscribe to homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:19:34.860 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:19:34.860 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:19:34.861 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:19:34.861 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[DEBUG]  2024-12-12 09:19:34.865 [pool-2-thread-3] MqttCustomClient - Mqtt publisher subscribe to /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:19:34.865 [pool-2-thread-3] KnxToHA - [KnxToHA] Get topic: /devices/knx_main3_23_middle0/controls/control1_1_1/on
+[INFO ]  2024-12-12 09:19:34.865 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:19:34.865 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:19:34.865 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:19:34.865 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:19:34.866 [pool-2-thread-3] MqttCustomClient - Mqtt publisher subscribe to /devices/knx_main3_23_middle0/controls/control1_1_1/on
+[INFO ]  2024-12-12 09:19:34.866 [pool-2-thread-3] KnxToHA - [KnxToHA] Get topic: /devices/knx_main3_10_middle0/controls/control1_1_1/on
+[DEBUG]  2024-12-12 09:19:34.903 [pool-2-thread-1] MqttCustomClient - Mqtt publisher subscribe to homeassistant/floor_3/office_room_3_12/brightness/set
+[DEBUG]  2024-12-12 09:19:34.925 [pool-2-thread-3] MqttCustomClient - Mqtt publisher subscribe to /devices/knx_main3_10_middle0/controls/control1_1_1/on
+[INFO ]  2024-12-12 09:19:43.183 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:19:43.184 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:19:43.184 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:19:43.184 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:19:43.563 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:19:43.563 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:19:43.563 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:19:43.564 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:19:43.606 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:19:43.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:19:43.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:19:43.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[INFO ]  2024-12-12 09:19:44.532 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:19:44.533 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:19:44.533 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:19:44.533 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:19:44.869 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.35,"humidity":48.34,"tvoc":745.67,"co2":966.8,"pressure":575.3}
+[INFO ]  2024-12-12 09:19:44.920 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:19:44.920 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:19:44.920 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:19:44.920 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:19:44.956 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:19:44.956 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:19:44.956 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:19:44.956 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:19:49.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:19:49.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:19:49.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:19:49.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:19:49.892 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:19:49.892 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:19:49.892 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:19:49.893 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:19:54.870 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.31,"humidity":48.78,"tvoc":764.82,"co2":694.49,"pressure":594.92}
+[DEBUG]  2024-12-12 09:20:04.877 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.56,"humidity":77.15,"tvoc":759.04,"co2":627.19,"pressure":878.53}
+[INFO ]  2024-12-12 09:20:06.704 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:20:06.704 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:20:06.704 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:20:06.705 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:20:06.727 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:20:06.727 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:20:06.727 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:20:06.727 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[INFO ]  2024-12-12 09:20:11.690 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:20:11.690 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:20:11.690 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:20:11.690 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:20:11.724 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:20:11.724 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:20:11.724 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:20:11.724 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:20:14.880 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.73,"humidity":65.38,"tvoc":754.36,"co2":579.86,"pressure":510.13}
+[DEBUG]  2024-12-12 09:20:24.892 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.19,"humidity":79.54,"tvoc":746.49,"co2":834.01,"pressure":632.49}
+[DEBUG]  2024-12-12 09:20:34.893 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.73,"humidity":51.14,"tvoc":752.11,"co2":829.34,"pressure":668.54}
+[DEBUG]  2024-12-12 09:20:44.895 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.85,"humidity":47.0,"tvoc":758.56,"co2":813.53,"pressure":712.09}
+[INFO ]  2024-12-12 09:20:45.933 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:20:45.933 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:20:45.933 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:20:45.934 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:20:46.346 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:20:46.346 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:20:46.346 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:20:46.347 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:20:46.442 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:20:46.442 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:20:46.442 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:20:46.443 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[INFO ]  2024-12-12 09:20:47.990 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:20:47.990 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:20:47.990 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:20:47.990 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:20:48.118 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:20:48.118 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:20:48.118 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:20:48.118 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:20:48.154 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:20:48.154 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:20:48.154 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:20:48.154 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:20:53.164 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:20:53.164 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:20:53.164 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:20:53.164 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:20:53.200 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:20:53.200 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:20:53.200 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:20:53.200 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:20:54.896 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.35,"humidity":52.01,"tvoc":762.17,"co2":892.82,"pressure":882.41}
+[DEBUG]  2024-12-12 09:21:04.898 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.43,"humidity":53.74,"tvoc":758.98,"co2":500.22,"pressure":556.23}
+[DEBUG]  2024-12-12 09:21:14.899 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.98,"humidity":70.38,"tvoc":755.25,"co2":622.1,"pressure":509.44}
+[DEBUG]  2024-12-12 09:21:24.900 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.92,"humidity":52.53,"tvoc":754.47,"co2":959.89,"pressure":585.84}
+[DEBUG]  2024-12-12 09:21:34.901 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.36,"humidity":52.96,"tvoc":761.54,"co2":644.93,"pressure":860.33}
+[DEBUG]  2024-12-12 09:21:44.903 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.59,"humidity":57.32,"tvoc":764.43,"co2":602.38,"pressure":806.01}
+[DEBUG]  2024-12-12 09:21:54.905 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.25,"humidity":84.9,"tvoc":748.34,"co2":990.58,"pressure":729.53}
+[DEBUG]  2024-12-12 09:22:04.907 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.35,"humidity":49.4,"tvoc":764.82,"co2":876.56,"pressure":895.49}
+[DEBUG]  2024-12-12 09:22:14.909 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.53,"humidity":51.86,"tvoc":750.96,"co2":885.86,"pressure":722.77}
+[DEBUG]  2024-12-12 09:22:24.914 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.3,"humidity":45.04,"tvoc":745.02,"co2":694.75,"pressure":683.51}
+[DEBUG]  2024-12-12 09:22:34.923 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.3,"humidity":76.53,"tvoc":757.99,"co2":918.15,"pressure":823.94}
+[DEBUG]  2024-12-12 09:22:44.940 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.08,"humidity":63.81,"tvoc":753.19,"co2":715.03,"pressure":966.09}
+[DEBUG]  2024-12-12 09:22:54.949 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.66,"humidity":70.91,"tvoc":756.31,"co2":611.08,"pressure":552.41}
+[DEBUG]  2024-12-12 09:23:04.955 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.77,"humidity":84.37,"tvoc":764.82,"co2":783.2,"pressure":732.96}
+[INFO ]  2024-12-12 09:23:09.781 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/brightness/set
+[INFO ]  2024-12-12 09:23:09.782 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: 41
+[INFO ]  2024-12-12 09:23:09.782 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 41
+[DEBUG]  2024-12-12 09:23:09.782 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 41
+[INFO ]  2024-12-12 09:23:09.830 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:23:09.830 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:23:09.830 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:23:09.831 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:23:10.251 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:23:10.251 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:23:10.251 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:23:10.251 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:23:10.283 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:23:10.283 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 41
+[INFO ]  2024-12-12 09:23:10.284 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 41
+[DEBUG]  2024-12-12 09:23:10.284 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 41
+[INFO ]  2024-12-12 09:23:12.921 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/brightness/set
+[INFO ]  2024-12-12 09:23:12.921 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: 5
+[INFO ]  2024-12-12 09:23:12.921 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 5
+[DEBUG]  2024-12-12 09:23:12.921 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 5
+[INFO ]  2024-12-12 09:23:12.979 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:23:12.979 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:23:12.979 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:23:12.979 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:23:13.379 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:23:13.379 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:23:13.379 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:23:13.379 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:23:13.413 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:23:13.413 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 5
+[INFO ]  2024-12-12 09:23:13.414 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 5
+[DEBUG]  2024-12-12 09:23:13.414 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 5
+[DEBUG]  2024-12-12 09:23:14.959 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.65,"humidity":68.12,"tvoc":745.86,"co2":877.5,"pressure":910.08}
+[INFO ]  2024-12-12 09:23:18.445 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:23:18.445 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:23:18.445 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:23:18.446 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:23:18.479 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:23:18.480 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 5
+[INFO ]  2024-12-12 09:23:18.480 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 5
+[DEBUG]  2024-12-12 09:23:18.480 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 5
+[DEBUG]  2024-12-12 09:23:24.960 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.99,"humidity":61.16,"tvoc":751.67,"co2":618.6,"pressure":584.0}
+[DEBUG]  2024-12-12 09:23:34.962 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.58,"humidity":75.3,"tvoc":750.94,"co2":968.96,"pressure":633.6}
+[DEBUG]  2024-12-12 09:23:44.964 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.48,"humidity":84.87,"tvoc":746.73,"co2":513.09,"pressure":975.15}
+[DEBUG]  2024-12-12 09:23:54.967 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.16,"humidity":65.89,"tvoc":761.22,"co2":884.37,"pressure":930.89}
+[INFO ]  2024-12-12 09:23:56.548 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:23:56.548 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:23:56.548 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:23:56.548 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:23:56.583 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:23:56.583 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:23:56.583 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:23:56.584 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:24:01.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:24:01.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:24:01.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:24:01.608 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:24:01.625 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:24:01.625 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:24:01.625 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:24:01.626 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:24:04.969 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.98,"humidity":69.65,"tvoc":749.4,"co2":794.75,"pressure":674.5}
+[DEBUG]  2024-12-12 09:24:14.970 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.46,"humidity":78.92,"tvoc":761.36,"co2":600.47,"pressure":747.8}
+[DEBUG]  2024-12-12 09:24:24.971 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.72,"humidity":60.91,"tvoc":750.04,"co2":709.5,"pressure":945.84}
+[DEBUG]  2024-12-12 09:24:34.974 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.0,"humidity":45.5,"tvoc":759.15,"co2":849.74,"pressure":638.38}
+[DEBUG]  2024-12-12 09:24:44.976 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.16,"humidity":84.05,"tvoc":760.95,"co2":667.69,"pressure":939.62}
+[DEBUG]  2024-12-12 09:24:54.978 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.11,"humidity":77.72,"tvoc":745.27,"co2":569.25,"pressure":684.83}
+[DEBUG]  2024-12-12 09:25:04.979 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.61,"humidity":52.0,"tvoc":761.53,"co2":938.29,"pressure":529.28}
+[DEBUG]  2024-12-12 09:25:14.987 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.47,"humidity":69.49,"tvoc":748.37,"co2":934.44,"pressure":666.11}
+[DEBUG]  2024-12-12 09:25:24.988 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.69,"humidity":79.53,"tvoc":758.47,"co2":902.51,"pressure":517.63}
+[DEBUG]  2024-12-12 09:25:34.989 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.85,"humidity":58.88,"tvoc":751.71,"co2":851.86,"pressure":819.9}
+[DEBUG]  2024-12-12 09:25:44.992 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.66,"humidity":47.42,"tvoc":750.0,"co2":678.46,"pressure":675.52}
+[DEBUG]  2024-12-12 09:25:54.996 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.28,"humidity":48.89,"tvoc":754.68,"co2":724.08,"pressure":695.13}
+[DEBUG]  2024-12-12 09:26:04.997 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.12,"humidity":75.34,"tvoc":760.1,"co2":929.05,"pressure":799.91}
+[DEBUG]  2024-12-12 09:26:15.005 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.95,"humidity":52.22,"tvoc":758.69,"co2":698.58,"pressure":591.05}
+[DEBUG]  2024-12-12 09:26:25.006 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.85,"humidity":70.01,"tvoc":758.45,"co2":572.17,"pressure":766.79}
+[DEBUG]  2024-12-12 09:26:35.022 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.0,"humidity":83.07,"tvoc":760.64,"co2":734.01,"pressure":616.72}
+[INFO ]  2024-12-12 09:26:40.534 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:26:40.534 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:26:40.534 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:26:40.534 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:26:40.931 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:26:40.931 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:26:40.931 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:26:40.931 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:26:40.967 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:26:40.967 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:26:40.967 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:26:40.968 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:26:43.839 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:26:43.839 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:26:43.839 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:26:43.840 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:26:44.112 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:26:44.112 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:26:44.112 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:26:44.112 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:26:44.227 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:26:44.228 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:26:44.228 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:26:44.228 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:26:45.032 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.81,"humidity":45.11,"tvoc":752.98,"co2":633.0,"pressure":944.13}
+[INFO ]  2024-12-12 09:26:49.159 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:26:49.159 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:26:49.159 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:26:49.159 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:26:49.276 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:26:49.276 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:26:49.276 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:26:49.276 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:26:55.038 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.15,"humidity":84.54,"tvoc":752.62,"co2":843.45,"pressure":650.05}
+[INFO ]  2024-12-12 09:26:59.906 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:26:59.906 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:26:59.906 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:26:59.907 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:27:00.083 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:27:00.083 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:27:00.083 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:27:00.083 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:27:00.193 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:27:00.194 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:27:00.194 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:27:00.194 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:27:05.042 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.77,"humidity":48.95,"tvoc":761.17,"co2":546.97,"pressure":652.26}
+[INFO ]  2024-12-12 09:27:05.072 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:27:05.072 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:27:05.072 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:27:05.072 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:27:05.107 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:27:05.107 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:27:05.107 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:27:05.107 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:27:15.044 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.74,"humidity":49.37,"tvoc":750.36,"co2":524.06,"pressure":697.33}
+[DEBUG]  2024-12-12 09:27:25.046 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.83,"humidity":53.15,"tvoc":753.85,"co2":624.5,"pressure":853.38}
+[INFO ]  2024-12-12 09:27:34.360 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:27:34.360 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:27:34.360 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:27:34.360 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[DEBUG]  2024-12-12 09:27:35.048 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.01,"humidity":48.42,"tvoc":745.91,"co2":538.75,"pressure":850.38}
+[DEBUG]  2024-12-12 09:27:45.049 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.7,"humidity":52.18,"tvoc":753.95,"co2":886.85,"pressure":703.32}
+[DEBUG]  2024-12-12 09:27:55.051 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.22,"humidity":47.94,"tvoc":749.06,"co2":550.83,"pressure":556.5}
+[INFO ]  2024-12-12 09:27:55.845 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:27:55.845 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:27:55.845 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:27:55.845 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:27:55.879 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:27:55.879 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:27:55.879 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:27:55.880 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:28:00.806 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:28:00.806 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:28:00.806 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:28:00.806 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:28:00.842 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:28:00.842 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:28:00.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:28:00.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:28:05.052 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.66,"humidity":65.26,"tvoc":752.66,"co2":940.21,"pressure":950.09}
+[DEBUG]  2024-12-12 09:28:15.054 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.88,"humidity":63.89,"tvoc":764.31,"co2":714.07,"pressure":580.57}
+[DEBUG]  2024-12-12 09:28:25.055 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.12,"humidity":56.53,"tvoc":754.61,"co2":563.41,"pressure":651.93}
+[DEBUG]  2024-12-12 09:28:35.056 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.74,"humidity":77.13,"tvoc":761.53,"co2":811.87,"pressure":776.54}
+[DEBUG]  2024-12-12 09:28:45.059 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.61,"humidity":78.0,"tvoc":745.38,"co2":683.83,"pressure":960.83}
+[DEBUG]  2024-12-12 09:28:55.060 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.34,"humidity":54.36,"tvoc":753.94,"co2":712.74,"pressure":748.41}
+[DEBUG]  2024-12-12 09:29:05.062 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.65,"humidity":66.82,"tvoc":748.25,"co2":826.58,"pressure":963.5}
+[DEBUG]  2024-12-12 09:29:15.066 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.53,"humidity":81.24,"tvoc":761.04,"co2":840.16,"pressure":674.37}
+[DEBUG]  2024-12-12 09:29:25.067 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.5,"humidity":51.95,"tvoc":760.71,"co2":962.18,"pressure":643.13}
+[DEBUG]  2024-12-12 09:29:35.070 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.62,"humidity":57.83,"tvoc":759.09,"co2":539.34,"pressure":971.95}
+[DEBUG]  2024-12-12 09:29:45.072 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.23,"humidity":55.19,"tvoc":757.16,"co2":695.21,"pressure":562.68}
+[DEBUG]  2024-12-12 09:29:55.074 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.78,"humidity":74.8,"tvoc":760.43,"co2":689.99,"pressure":680.41}
+[INFO ]  2024-12-12 09:30:00.603 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/brightness/set
+[INFO ]  2024-12-12 09:30:00.603 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: 33
+[INFO ]  2024-12-12 09:30:00.603 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 33
+[DEBUG]  2024-12-12 09:30:00.603 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 33
+[INFO ]  2024-12-12 09:30:00.654 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:30:00.655 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:30:00.655 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:30:00.655 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:30:00.949 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:00.949 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:30:00.949 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:30:00.950 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:30:01.000 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:01.000 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 33
+[INFO ]  2024-12-12 09:30:01.000 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 33
+[DEBUG]  2024-12-12 09:30:01.000 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 33
+[DEBUG]  2024-12-12 09:30:05.083 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.7,"humidity":62.25,"tvoc":762.5,"co2":528.86,"pressure":929.45}
+[INFO ]  2024-12-12 09:30:06.178 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:06.178 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:30:06.178 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:30:06.179 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:30:06.272 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:06.272 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 33
+[INFO ]  2024-12-12 09:30:06.272 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 33
+[DEBUG]  2024-12-12 09:30:06.273 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 33
+[INFO ]  2024-12-12 09:30:12.151 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:30:12.151 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:30:12.151 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:30:12.151 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:30:12.536 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:12.536 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:30:12.536 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:30:12.537 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:30:12.565 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:12.565 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:30:12.565 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:30:12.566 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:30:15.085 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.23,"humidity":50.04,"tvoc":746.92,"co2":861.29,"pressure":736.88}
+[INFO ]  2024-12-12 09:30:17.606 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:17.606 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:30:17.606 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:30:17.607 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:30:17.632 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:17.633 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:30:17.633 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:30:17.633 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:30:23.570 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:30:23.570 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:30:23.570 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:30:23.571 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:30:24.109 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:24.109 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:30:24.109 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:30:24.109 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:30:24.178 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:24.179 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:30:24.179 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:30:24.179 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:30:25.088 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.17,"humidity":77.79,"tvoc":748.55,"co2":582.33,"pressure":875.22}
+[INFO ]  2024-12-12 09:30:29.070 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:29.070 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:30:29.070 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:30:29.070 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:30:29.106 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:29.106 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:30:29.106 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:30:29.106 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:30:35.089 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.15,"humidity":46.36,"tvoc":751.05,"co2":715.99,"pressure":887.17}
+[INFO ]  2024-12-12 09:30:43.503 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:30:43.503 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:30:43.504 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:30:43.504 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:30:43.710 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:43.710 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:30:43.710 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:30:43.710 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:30:43.753 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:43.753 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:30:43.753 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:30:43.753 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:30:45.090 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.32,"humidity":53.92,"tvoc":764.77,"co2":806.08,"pressure":834.35}
+[INFO ]  2024-12-12 09:30:47.185 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:30:47.185 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:30:47.185 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:30:47.185 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:30:47.717 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:47.717 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:30:47.717 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:30:47.718 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:30:47.783 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:47.783 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:30:47.783 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:30:47.783 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[INFO ]  2024-12-12 09:30:52.701 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:30:52.701 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:30:52.701 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:30:52.701 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:30:52.740 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:30:52.740 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 255
+[INFO ]  2024-12-12 09:30:52.740 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 255
+[DEBUG]  2024-12-12 09:30:52.740 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 255
+[DEBUG]  2024-12-12 09:30:55.092 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.48,"humidity":48.02,"tvoc":762.25,"co2":644.54,"pressure":936.71}
+[DEBUG]  2024-12-12 09:31:05.096 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.48,"humidity":78.08,"tvoc":754.81,"co2":837.12,"pressure":872.59}
+[DEBUG]  2024-12-12 09:31:15.097 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.49,"humidity":60.07,"tvoc":761.77,"co2":685.77,"pressure":650.75}
+[INFO ]  2024-12-12 09:31:17.566 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:31:17.566 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:17.566 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:31:17.567 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:31:17.603 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:31:17.603 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:17.603 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:31:17.603 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:31:22.896 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:31:22.896 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:22.896 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:31:22.896 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:31:22.928 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:31:22.928 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:22.928 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:31:22.928 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:31:25.098 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.3,"humidity":49.73,"tvoc":749.02,"co2":916.55,"pressure":671.19}
+[DEBUG]  2024-12-12 09:31:35.101 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.85,"humidity":70.67,"tvoc":747.04,"co2":768.72,"pressure":821.89}
+[INFO ]  2024-12-12 09:31:43.563 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:31:43.563 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:31:43.563 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:31:43.563 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:31:43.939 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:31:43.940 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:43.940 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:31:43.940 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:31:43.943 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:31:43.943 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:43.943 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:31:43.943 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:31:45.102 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.06,"humidity":64.69,"tvoc":751.11,"co2":986.14,"pressure":606.95}
+[INFO ]  2024-12-12 09:31:48.809 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:31:48.809 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:48.809 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:31:48.809 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:31:48.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:31:48.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:31:48.843 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:31:48.844 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:31:55.103 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.4,"humidity":84.16,"tvoc":750.2,"co2":583.47,"pressure":652.75}
+[INFO ]  2024-12-12 09:32:00.526 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/brightness/set
+[INFO ]  2024-12-12 09:32:00.526 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: 110
+[INFO ]  2024-12-12 09:32:00.526 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 110
+[DEBUG]  2024-12-12 09:32:00.526 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 110
+[INFO ]  2024-12-12 09:32:00.575 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:32:00.575 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:32:00.575 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:32:00.575 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:32:00.775 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:32:00.776 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:32:00.776 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:32:00.776 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:32:00.829 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:32:00.829 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 110
+[INFO ]  2024-12-12 09:32:00.829 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 110
+[DEBUG]  2024-12-12 09:32:00.829 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 110
+[DEBUG]  2024-12-12 09:32:05.106 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.96,"humidity":45.16,"tvoc":745.21,"co2":521.93,"pressure":652.25}
+[INFO ]  2024-12-12 09:32:05.817 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:32:05.817 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:32:05.817 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:32:05.818 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:32:05.853 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:32:05.854 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 110
+[INFO ]  2024-12-12 09:32:05.854 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 110
+[DEBUG]  2024-12-12 09:32:05.854 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 110
+[DEBUG]  2024-12-12 09:32:15.108 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.45,"humidity":77.62,"tvoc":752.59,"co2":760.75,"pressure":947.0}
+[INFO ]  2024-12-12 09:32:16.328 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/brightness/set
+[INFO ]  2024-12-12 09:32:16.328 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: 5
+[INFO ]  2024-12-12 09:32:16.328 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 5
+[DEBUG]  2024-12-12 09:32:16.328 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 5
+[INFO ]  2024-12-12 09:32:16.388 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:32:16.388 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: ON
+[INFO ]  2024-12-12 09:32:16.388 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 1
+[DEBUG]  2024-12-12 09:32:16.389 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 1
+[INFO ]  2024-12-12 09:32:16.807 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:32:16.807 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:32:16.807 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:32:16.808 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:32:16.841 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:32:16.841 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 5
+[INFO ]  2024-12-12 09:32:16.841 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 5
+[DEBUG]  2024-12-12 09:32:16.842 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 5
+[INFO ]  2024-12-12 09:32:21.856 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:32:21.856 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 1
+[INFO ]  2024-12-12 09:32:21.856 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: ON
+[DEBUG]  2024-12-12 09:32:21.856 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: ON
+[INFO ]  2024-12-12 09:32:21.894 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:32:21.894 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 5
+[INFO ]  2024-12-12 09:32:21.894 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 5
+[DEBUG]  2024-12-12 09:32:21.894 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 5
+[DEBUG]  2024-12-12 09:32:25.109 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.33,"humidity":76.31,"tvoc":752.42,"co2":909.89,"pressure":603.66}
+[DEBUG]  2024-12-12 09:32:35.110 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.77,"humidity":63.39,"tvoc":751.3,"co2":856.77,"pressure":556.79}
+[DEBUG]  2024-12-12 09:32:45.114 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.57,"humidity":57.43,"tvoc":746.9,"co2":631.87,"pressure":802.03}
+[DEBUG]  2024-12-12 09:32:55.117 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.64,"humidity":47.99,"tvoc":749.89,"co2":907.25,"pressure":721.5}
+[DEBUG]  2024-12-12 09:33:05.121 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.01,"humidity":57.18,"tvoc":758.49,"co2":597.77,"pressure":936.01}
+[DEBUG]  2024-12-12 09:33:15.122 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.49,"humidity":56.08,"tvoc":754.53,"co2":832.79,"pressure":824.27}
+[DEBUG]  2024-12-12 09:33:25.125 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.77,"humidity":75.35,"tvoc":758.63,"co2":618.71,"pressure":797.87}
+[DEBUG]  2024-12-12 09:33:35.127 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.88,"humidity":57.83,"tvoc":763.53,"co2":955.91,"pressure":638.31}
+[DEBUG]  2024-12-12 09:33:45.129 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.21,"humidity":63.93,"tvoc":749.04,"co2":984.05,"pressure":842.47}
+[DEBUG]  2024-12-12 09:33:55.143 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.17,"humidity":76.49,"tvoc":760.02,"co2":579.67,"pressure":887.12}
+[DEBUG]  2024-12-12 09:34:05.145 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.66,"humidity":61.33,"tvoc":759.41,"co2":946.6,"pressure":863.93}
+[DEBUG]  2024-12-12 09:34:15.155 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.54,"humidity":47.99,"tvoc":757.92,"co2":893.96,"pressure":677.38}
+[DEBUG]  2024-12-12 09:34:25.157 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.11,"humidity":68.03,"tvoc":753.86,"co2":680.69,"pressure":860.48}
+[INFO ]  2024-12-12 09:34:27.065 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - [subscribeTopic] Get message: homeassistant/floor_3/office_room_3_12/light/set
+[INFO ]  2024-12-12 09:34:27.065 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] Get message: OFF
+[INFO ]  2024-12-12 09:34:27.065 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] HAToKnx - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:34:27.065 [MQTT Call: 8ac39042-4c5c-4c36-a7df-680ba0053966] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:34:27.338 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:34:27.338 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:34:27.338 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:34:27.338 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:34:27.375 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:34:27.375 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:34:27.375 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:34:27.375 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[INFO ]  2024-12-12 09:34:32.666 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle1/controls/control5_1_1
+[INFO ]  2024-12-12 09:34:32.666 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:34:32.666 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: OFF
+[DEBUG]  2024-12-12 09:34:32.666 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: OFF
+[INFO ]  2024-12-12 09:34:32.771 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - [subscribeTopic] Get message: /devices/knx_main5_middle3/controls/control5_3_1
+[INFO ]  2024-12-12 09:34:32.771 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] Get message: 0
+[INFO ]  2024-12-12 09:34:32.771 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] KnxToHA - [KnxToHA] convert to message: 0
+[DEBUG]  2024-12-12 09:34:32.771 [MQTT Call: 2164fe52-9745-4f63-875a-dffc0f43b838] MqttCustomClient - Mqtt publisher publish message: 0
+[DEBUG]  2024-12-12 09:34:35.165 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":19.76,"humidity":59.56,"tvoc":756.77,"co2":620.14,"pressure":711.88}
+[DEBUG]  2024-12-12 09:34:45.178 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.82,"humidity":49.14,"tvoc":749.61,"co2":601.1,"pressure":685.12}
+[DEBUG]  2024-12-12 09:34:55.179 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.87,"humidity":63.76,"tvoc":751.05,"co2":897.46,"pressure":756.48}
+[DEBUG]  2024-12-12 09:35:05.180 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.37,"humidity":47.71,"tvoc":752.81,"co2":688.78,"pressure":642.91}
+[DEBUG]  2024-12-12 09:35:15.180 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":20.36,"humidity":57.51,"tvoc":750.92,"co2":610.71,"pressure":828.83}
+[DEBUG]  2024-12-12 09:35:25.182 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.84,"humidity":78.44,"tvoc":750.88,"co2":885.08,"pressure":975.93}
+[DEBUG]  2024-12-12 09:35:35.183 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":23.78,"humidity":53.18,"tvoc":760.49,"co2":979.6,"pressure":930.27}
+[DEBUG]  2024-12-12 09:35:45.189 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.43,"humidity":79.45,"tvoc":758.89,"co2":889.83,"pressure":892.89}
+[DEBUG]  2024-12-12 09:35:55.198 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":18.98,"humidity":66.8,"tvoc":751.33,"co2":885.87,"pressure":642.7}
+[DEBUG]  2024-12-12 09:36:05.210 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":24.5,"humidity":51.4,"tvoc":748.42,"co2":630.68,"pressure":835.62}
+[DEBUG]  2024-12-12 09:36:15.214 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.31,"humidity":72.79,"tvoc":759.15,"co2":628.22,"pressure":820.36}
+[DEBUG]  2024-12-12 09:36:25.217 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":22.08,"humidity":61.08,"tvoc":764.73,"co2":790.3,"pressure":701.51}
+[DEBUG]  2024-12-12 09:36:35.227 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.26,"humidity":48.59,"tvoc":750.87,"co2":630.51,"pressure":787.29}
+[WARN ]  2024-12-12 09:36:45.238 [pool-2-thread-2] MqttCustomClient - Mqtt publisher publish message: {"temperature":21.21,"humidity":67.02,"tvoc":763.17,"co2":962.83,"pressure":846.18}
+[ERROR]  2024-12-12 09:36:45.240 [pool-2-thread-2] MqttCustomClient - Client is not connected
+[ERROR]  2024-12-12 09:36:45.241 [pool-2-thread-2] MqttCustomClient - null
+[WARN ]  2024-12-12 09:36:55.254 [pool-2-thread-2] BridgeToHA - Mqtt broker 172.16.129.11:1883 was broken, closing publishing message from bridge to HA

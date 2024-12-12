@@ -6,10 +6,20 @@ import com.balashoff.ha.components.light.Light;
 
 public class Convertor {
 
-    public static String forTopic(String component, String device, String inputMessage){
+    public static String forTopicHA(String component, String device, String inputMessage){
         switch (component){
             case "light":
-                return Light.convert(device, inputMessage);
+                return Light.convertHA(device, inputMessage);
+            case "cover":
+                return Cover.convert(device, inputMessage);
+        }
+        return "";
+    }
+
+    public static String forTopicKNX(String component, String device, String inputMessage){
+        switch (component){
+            case "light":
+                return Light.convertKnx(device, inputMessage);
             case "cover":
                 return Cover.convert(device, inputMessage);
         }
