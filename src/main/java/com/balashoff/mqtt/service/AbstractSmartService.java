@@ -1,5 +1,6 @@
 package com.balashoff.mqtt.service;
 
+import com.balashoff.ha.components.Convertor;
 import com.balashoff.mqtt.MqttCustomClient;
 import com.balashoff.mqtt.topic.MqttTopicRecord;
 import lombok.AccessLevel;
@@ -14,6 +15,5 @@ import java.util.Map;
 public abstract class AbstractSmartService implements Runnable{
     private final  Map<Boolean, MqttCustomClient> clients;
     private final List<MqttTopicRecord> topics;
-
     protected abstract void init();
 }

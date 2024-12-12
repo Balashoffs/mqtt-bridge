@@ -17,7 +17,7 @@ public class HADeviceFabric {
             List<IHADeviceClass> deviceClasses;
             switch (component){
                 case "sensor":
-                    deviceClasses = SensorDeviceClass.buildList(deviceClass, topics.getOrDefault(fullType, List.of()));
+                    deviceClasses = SensorDeviceClass.buildSensors(deviceClass, topics.getOrDefault(fullType, List.of()));
                     break;
                 default:
                     deviceClasses = List.of();

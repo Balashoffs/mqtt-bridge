@@ -7,7 +7,7 @@ import com.balashoff.mqtt.topic.MqttTopicRecord;
 import java.util.List;
 
 public class SensorDeviceClass {
-    public static List<IHADeviceClass> buildList(String deviceClass, List<MqttTopicRecord> records) {
+    public static List<IHADeviceClass> buildSensors(String deviceClass, List<MqttTopicRecord> records) {
         return records.stream().map(record -> {
             switch (deviceClass) {
                 case "climate":

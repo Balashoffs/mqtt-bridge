@@ -7,28 +7,28 @@
     "topic_direction": "bridge-ha"
   },
   {
-    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/light/set",
     "knx_topic": "/devices/knx_main5_middle0/controls/control5_0_1/on",
     "ha_component":"light",
     "ha_device_class": "switch",
     "topic_direction": "ha-knx"
   },
   {
-    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/light/status",
     "knx_topic": "/devices/knx_main5_middle1/controls/control5_1_1",
     "ha_component":"light",
     "ha_device_class": "switch",
     "topic_direction": "knx-ha"
   },
   {
-    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/brightness/set",
     "knx_topic": "/devices/knx_main5_middle2/controls/control5_2_1/on",
     "ha_component":"light",
     "ha_device_class": "brightness",
     "topic_direction": "ha-knx"
   },
   {
-    "ha_topic":"homeassistant/floor_3/office_room_3_12/light",
+    "ha_topic":"homeassistant/floor_3/office_room_3_12/brightness/status",
     "knx_topic": "/devices/knx_main5_middle3/controls/control5_3_1",
     "ha_component":"light",
     "ha_device_class": "brightness",

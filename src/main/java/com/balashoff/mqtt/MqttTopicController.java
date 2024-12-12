@@ -1,5 +1,6 @@
 package com.balashoff.mqtt;
 
+import com.balashoff.ha.components.Convertor;
 import com.balashoff.mqtt.service.BridgeToHA;
 import com.balashoff.mqtt.service.HAToKnx;
 import com.balashoff.mqtt.service.KnxToHA;
@@ -23,19 +24,23 @@ public class MqttTopicController {
     }
 
     public void createTopicSubscribes(){
+
         for (Map.Entry<String, List<MqttTopicRecord>> entry : topics.entrySet()) {
             String key = entry.getKey();
-            List<MqttTopicRecord> value = entry.getValue();
+            List<MqttTopicRecord> topics = entry.getValue();
             Runnable runnable;
             switch (key) {
                 case "knx-ha" -> {
-                    runnable = new KnxToHA(clients, value);
+                    log.info("Create 'knx-ha' handler");
+                    runnable = new KnxToHA(clients, topics);
                 }
                 case "ha-knx" -> {
-                    runnable = new HAToKnx(clients, value);
+                    log.info("Create 'ha-knx' handler");
+                    runnable = new HAToKnx(clients, topics);
                 }
                 case "bridge-ha" -> {
-                    runnable = new BridgeToHA(clients, value);
+                    log.info("Create 'bridge-ha' handler");
+                    runnable = new BridgeToHA(clients, topics);
                 }
                 default -> {
                     runnable = () -> {

@@ -52,6 +52,7 @@ public class MqttCustomClient {
     public void subscribeTopic(String topicName, Consumer<String> stringConsumer) {
         try {
             publisher.subscribe(topicName, (s, mqttMessage) -> {
+                log.info("[subscribeTopic] Get message: {}", s);
                 byte[] bytes = mqttMessage.getPayload();
                 stringConsumer.accept(new String(bytes));
             });
