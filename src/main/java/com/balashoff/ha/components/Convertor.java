@@ -2,26 +2,38 @@ package com.balashoff.ha.components;
 
 import com.balashoff.ha.components.cover.Cover;
 import com.balashoff.ha.components.light.Light;
+import com.balashoff.mqtt.service.ForKNX;
+import com.balashoff.mqtt.topic.CustomTopicRecord;
+import com.balashoff.mqtt.topic.MqttTopicRecord;
 
 
 public class Convertor {
 
-    public static String forTopicHA(String component, String device, String inputMessage){
-        switch (component){
+    public static ForKNX toKnx(MqttTopicRecord mqttRecord, String inputMessage){
+        String newMessage;
+        switch (mqttRecord.haComponent()){
             case "light":
-                return Light.convertHA(device, inputMessage);
+                newMessage =  Light.convertToKnx(mqttRecord.haDeviceCLass(), inputMessage);
+                return new ForKNX(mqttRecord.topics().get(0).knxTopic(), newMessage);
             case "cover":
-                return Cover.convert(device, inputMessage);
+               newMessage =  Cover.convertToKnx(mqttRecord.haDeviceCLass(), inputMessage);
+               String newTopic = mqttRecord
+                       .topics()
+                       .stream()
+                       .filter(rec -> rec.value().contains(inputMessage))
+                       .map(CustomTopicRecord::knxTopic)
+                       .findFirst().orElse("");
+
+                return new ForKNX(newTopic, newMessage);
         }
-        return "";
+        newMessage = "";
+        return new ForKNX("",newMessage);
     }
 
-    public static String forTopicKNX(String component, String device, String inputMessage){
+    public static String toHA(String component, String device, String inputMessage){
         switch (component){
             case "light":
                 return Light.convertKnx(device, inputMessage);
-            case "cover":
-                return Cover.convert(device, inputMessage);
         }
         return "";
     }

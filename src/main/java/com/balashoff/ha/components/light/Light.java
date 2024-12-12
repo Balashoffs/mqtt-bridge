@@ -3,7 +3,7 @@ package com.balashoff.ha.components.light;
 
 
 public class Light {
-    public static String convertHA(String device, String inputMessage) {
+    public static String convertToKnx(String device, String inputMessage) {
         return switch (device) {
             case "switch" -> convertSwitchHa(inputMessage);
             case "brightness" -> convertBrightnessHa(inputMessage);

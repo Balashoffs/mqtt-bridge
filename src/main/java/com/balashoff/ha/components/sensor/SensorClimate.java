@@ -25,12 +25,12 @@ public class SensorClimate implements IHADeviceClass {
 
     @Override
     public String topicHa() {
-        return topicRecord.haTopic();
+        return topicRecord.topics().get(0).haTopic();
     }
 
     @Override
     public String topicKnx() {
-        return topicRecord.knxTopic();
+        return topicRecord.topics().get(0).knxTopic();
     }
 
 }

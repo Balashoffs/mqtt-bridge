@@ -2,8 +2,6 @@ package com.balashoff.mqtt.topic;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
-
 /*
   {
     "topics": [
@@ -17,10 +15,9 @@ import java.util.List;
     "topic_direction": "bridge-ha"
   },
  */
-public record MqttTopicRecord(
-        @SerializedName("topics") List<CustomTopicRecord> topics,
-        @SerializedName("ha_component") String haComponent,
-        @SerializedName("ha_device_class") String haDeviceCLass,
-        @SerializedName("topic_direction") String topicDirection
+public record CustomTopicRecord(
+        @SerializedName("ha_topic") String haTopic,
+        @SerializedName("knx_topic") String knxTopic,
+        @SerializedName("value") String value
 ) {
 }
