@@ -1,7 +1,7 @@
 package com.balashoff.mqtt.service;
 
-import com.balashoff.components.HADeviceFabric;
-import com.balashoff.components.IHADeviceClass;
+import com.balashoff.ha.components.HADeviceFabric;
+import com.balashoff.ha.components.IHADeviceClass;
 import com.balashoff.mqtt.MqttCustomClient;
 import com.balashoff.mqtt.topic.MqttTopicRecord;
 import lombok.extern.log4j.Log4j2;

@@ -1,6 +1,6 @@
-package com.balashoff.components.sensor;
+package com.balashoff.ha.components.sensor;
 
-import com.balashoff.components.IHADeviceClass;
+import com.balashoff.ha.components.IHADeviceClass;
 import com.balashoff.data.ClimateData;
 import com.balashoff.json.JsonSerilazer;
 import com.balashoff.mqtt.topic.MqttTopicRecord;

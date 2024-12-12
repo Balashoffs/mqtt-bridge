@@ -1,6 +1,6 @@
-package com.balashoff.components;
+package com.balashoff.ha.components;
 
-import com.balashoff.components.sensor.SensorDeviceClass;
+import com.balashoff.ha.components.sensor.SensorDeviceClass;
 import com.balashoff.mqtt.topic.MqttTopicRecord;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.balashoff.components;
+package com.balashoff.ha.components;
 
 public interface IHADeviceClass {
     String generateData();

@@ -1,7 +1,7 @@
-package com.balashoff.components.sensor;
+package com.balashoff.ha.components.sensor;
 
-import com.balashoff.components.DefaultHADeviceClass;
-import com.balashoff.components.IHADeviceClass;
+import com.balashoff.ha.components.DefaultHADeviceClass;
+import com.balashoff.ha.components.IHADeviceClass;
 import com.balashoff.mqtt.topic.MqttTopicRecord;
 
 import java.util.List;
