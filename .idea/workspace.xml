@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4eb771d-8ac3-4d38-afcd-e637a63bb242" name="Changes" comment="test mqtt topics analyzer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttClientManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttTopicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/balashoff/mqtt/MqttClientManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttCustomClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttCustomClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/config/MqttBrokerRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/config/MqttBrokerRecord.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4eb771d-8ac3-4d38-afcd-e637a63bb242" name="Changes" comment="add sensor climate generator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,6 +85,7 @@
     "Gradle.MqttTopicAnalyzerTest.analyzeRecords.executor": "Run",
     "Gradle.MqttTopicAnalyzerTest.executor": "Run",
     "Gradle.MqttTopicReaderTest.readRecordsTest.executor": "Run",
+    "Gradle.mqtt_bridge [:Main.main()].executor": "Run",
     "Gradle.mqtt_bridge [buildFatJar].executor": "Run",
     "Gradle.mqtt_bridge [clean].executor": "Run",
     "Gradle.mqtt_bridge [jar].executor": "Run",
@@ -101,14 +96,14 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bau/Documents/develop/company/liis/mqtt_bridge/src/main/resources",
+    "last_opened_file_path": "/Users/bau/Documents/develop/company/liis/mqtt_bridge/src/main/java/com/balashoff",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/balashoff" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/volume" />
@@ -121,7 +116,20 @@
       <recent name="com.balashoff.mqtt.topic" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MqttClientManagerTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.balashoff.Main" />
+      <module name="mqtt_bridge.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.balashoff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MqttClientManagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,30 +144,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.balashoff.mqtt.MqttClientManagerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MqttCustomClientTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.balashoff.mqtt.MqttCustomClientTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.MqttClientManagerTest" />
         <item itemvalue="Gradle.MqttTopicAnalyzerTest.analyzeRecords" />
         <item itemvalue="Gradle.MqttTopicAnalyzerTest" />
         <item itemvalue="Gradle.MqttTopicReaderTest.readRecordsTest" />
-        <item itemvalue="Gradle.MqttCustomClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +269,40 @@
       <option name="project" value="LOCAL" />
       <updated>1733921406171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring and test mqtt manager">
+      <option name="closed" value="true" />
+      <created>1733923849780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733923849780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add sensor climate generator">
+      <option name="closed" value="true" />
+      <created>1733931481341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733931481341</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add sensor climate generator">
+      <option name="closed" value="true" />
+      <created>1733931500485</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733931500485</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read mqtt broker config from file" />
     <MESSAGE value="refactor records readers" />
     <MESSAGE value="test mqtt topics analyzer" />
-    <option name="LAST_COMMIT_MESSAGE" value="test mqtt topics analyzer" />
+    <MESSAGE value="refactoring and test mqtt manager" />
+    <MESSAGE value="add sensor climate generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sensor climate generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -301,6 +311,15 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/balashoff/mqtt/MqttTopicAnalyzerTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/balashoff/mqtt/MqttCustomClient.java</url>
+          <line>87</line>
+          <properties class="com.balashoff.mqtt.MqttCustomClient" method="unSubscribe">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
