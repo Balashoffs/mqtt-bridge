@@ -2,7 +2,194 @@
   {
     "topics": [
       {
+        "ha_topic": "homeassistant/floor_3/office_room_3_6/1/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/office_room_3_6/2/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/office_room_3_5/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/corridor_3_2/1/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/corridor_3_2/2/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/open_space_3_2/1/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/open_space_3_2/2/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/lectory_3_3/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/lectory_3_4/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/talking_3_7/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/talking_3_8/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/talking_3_9/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/talking_3_10/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/office_room_3_11/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
         "ha_topic": "homeassistant/floor_3/office_room_3_12/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/office_room_3_14/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/gym_3_16/climate",
+        "knx_topic": ""
+      }
+    ],
+    "ha_component": "sensor",
+    "ha_device_class": "climate",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/kitchen_3_23/climate",
         "knx_topic": ""
       }
     ],
