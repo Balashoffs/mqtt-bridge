@@ -47,7 +47,12 @@ public class BridgeToHA extends AbstractSmartService {
         }
         MqttCustomClient client = getClients().get(false);
         while (client.isRunning.get()) {
-            haDevices.forEach(device -> client.pushMessage(device.topicHa(), device.generateData()));
+            haDevices.forEach(device -> {
+                String message = device.generateData();
+                if (!message.isEmpty()) {
+                    client.pushMessage(device.topicHa(), message);
+                }
+            });
             try {
                 Thread.sleep(10000);
             } catch (InterruptedException e) {

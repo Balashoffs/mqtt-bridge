@@ -67,7 +67,67 @@
       }
     ],
     "ha_component": "binary_sensor",
-    "ha_device_class": "leak",
+    "ha_device_class": "moisture",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/shower_3_18/water_leak",
+        "knx_topic": "",
+        "value": "ON|OFF"
+      }
+    ],
+    "ha_component": "binary_sensor",
+    "ha_device_class": "moisture",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/shower_3_19/water_leak",
+        "knx_topic": "",
+        "value": "ON|OFF"
+      }
+    ],
+    "ha_component": "binary_sensor",
+    "ha_device_class": "moisture",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/shower_3_21/water_leak",
+        "knx_topic": "",
+        "value": "ON|OFF"
+      }
+    ],
+    "ha_component": "binary_sensor",
+    "ha_device_class": "moisture",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/shower_3_22/water_leak",
+        "knx_topic": "",
+        "value": "ON|OFF"
+      }
+    ],
+    "ha_component": "binary_sensor",
+    "ha_device_class": "moisture",
+    "topic_direction": "bridge-ha"
+  },
+  {
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/coffee_point_3_12/water_leak",
+        "knx_topic": "",
+        "value": "ON|OFF"
+      }
+    ],
+    "ha_component": "binary_sensor",
+    "ha_device_class": "moisture",
     "topic_direction": "bridge-ha"
   },
   {
@@ -76,7 +136,19 @@
     "topic_direction": "bridge-ha",
     "topics": [
       {
-        "ha_topic": "homeassistant/floor_3/talking_3_10/motion_detector",
+        "ha_topic": "homeassistant/floor_3/talking_3_25/motion_sensor",
+        "knx_topic": "",
+        "value": "ON|OFF"
+      }
+    ]
+  },
+  {
+    "ha_component": "binary_sensor",
+    "ha_device_class": "motion",
+    "topic_direction": "bridge-ha",
+    "topics": [
+      {
+        "ha_topic": "homeassistant/floor_3/talking_3_25/motion_sensor",
         "knx_topic": "",
         "value": "ON|OFF"
       }

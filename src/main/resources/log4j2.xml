@@ -6,8 +6,8 @@
 
 
     <Appenders>
-        <RollingFile name="bimstand-log"
-                     fileName="${basePath}/bimstand-log.log"
+        <RollingFile name="bimstand"
+                     fileName="${basePath}/bimstand.log"
                      filePattern="${basePath}/$${date:yyyy-MM-dd}/bimstand-%d{yyyy-MM-dd-hh}-%i.log"
                      append = "true"
                      bufferedIO = "true">
@@ -21,7 +21,7 @@
         </RollingFile>
 
         <Async name="Async-bimstand-log">
-            <AppenderRef ref="bimstand-log"/>
+            <AppenderRef ref="bimstand"/>
         </Async>
 
         <Console name="console" target="SYSTEM_OUT">
